@@ -1,0 +1,167 @@
+/**********Color HEX's for Reverence
+
+
+orange = #EE7B31
+
+.white = #F5F5F5
+
+.black = #231F20
+
+/****************/
+
+body {
+  font-size: 16px;
+  color: #F5F5F5;
+  background-color: #F5F5F5;
+  font-family: 'Impact', sans-serif;
+}
+
+/** HEADER LARGE DEVICES**/
+
+#header-nav {
+  color: #231F20;
+  background-color: #EE7B31;
+  padding: 5px;
+  border-radius: 0;
+  border: 0;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+#logo-img {
+  background: url('../images/unscene-header-logo.png') no-repeat;
+  width: 260px;
+  height: 90px;
+  margin: 10px 15px 10px 0;
+  float: left;
+}
+
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  color: #F5F5F5;
+  background-color: #231F20;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#foot-format {
+  line-height: 2;
+}
+#foot-format > span {
+  font-size: 1.3em;
+}
+#foot-format p {
+  font-size: .8em;
+  line-height: 1.8;
+}
+/* END FOOTER */
+
+/********Carousel Holder*******/
+
+#carousel-holder {
+      margin: auto;
+      max-width: 90vmax;
+      max-height: auto;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 5vh;
+}
+
+@media only screen and (max-width: 490px) {
+   #carousel-holder {
+        display: none;
+    }
+}
+
+/****Article Tles****/
+
+#article-holder {
+      margin: auto;
+      max-width: 90vmax;
+      max-height: auto;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 5vh;
+}
+
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  max-width: 400px;
+  max-height: 209vh;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #828282;
+}
+
+/*****Article Tiles***/
+
+/********** Small devices only **********/
+@media (max-width: 1300px) {
+#header-nav {
+  color: #231F20;
+  background-color: #EE7B31;
+  padding: 5px;
+  border-radius: 0;
+  border: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1075px) {
+#logo-img {
+  background: url('../images/unscene-header-logo-shrink.png') no-repeat;
+  width: 200px;
+  height: 69px;
+  margin: 10px 15px 10px 0;
+  float: left;
+}
+}
+
+@media (max-width:385px){
+#logo-img {
+  background: url('../images/unscene-header-logo-mobile.png') no-repeat;
+  width: 143px;
+  height: 90px;
+  margin: 10px 15px 10px 0;
+  float: left;
+}
+}
+
+
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  
